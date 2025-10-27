@@ -1,6 +1,6 @@
 {
     "name": "Container runner",
-    "image": "quay.io/podman/stable:v5@sha256:3c7cf6c0f3ce17ab326cb8ae1f86b16da1bb6989d9767e0e2f701b86e950138a",
+    "image": "quay.io/podman/stable:v5",
     "capAdd": [
         "CAP_AUDIT_WRITE",
         "CAP_NET_ADMIN",
