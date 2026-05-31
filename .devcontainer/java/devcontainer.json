@@ -3,13 +3,22 @@
 {
 	"name": "Java",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/java:21",
+	"image": "mcr.microsoft.com/devcontainers/java:25",
 
 	"features": {
 		"ghcr.io/devcontainers/features/java:latest": {
 			"version": "latest",
 			"installMaven": "true",
 			"installGradle": "false"
+		},"ghcr.io/devcontainers/features/node:2":{}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"walkme.Java-extension-pack",
+				"Oracle.oracle-java",
+				"SonarSource.sonarlint-vscode"
+			]
 		}
 	}
 
