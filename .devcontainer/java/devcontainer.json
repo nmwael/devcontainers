@@ -10,7 +10,8 @@
 			"version": "latest",
 			"installMaven": "true",
 			"installGradle": "false"
-		},"ghcr.io/devcontainers/features/node:2":{}
+		},"ghcr.io/devcontainers-extra/features/node-asdf:0":{},
+		 "ghcr.io/devcontainer-community/devcontainer-features/opencode.ai:1": {}
 	},
 	"customizations": {
 		"vscode": {
